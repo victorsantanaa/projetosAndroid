@@ -1,0 +1,9 @@
+#APP3 Pedra, Papel e Tesoura
+
+O app tem como objetivo simular o jogo de Pedra Papel e Tesoura, ou Jô-ken-pô.
+
+Nesse projeto é possível encontrar:
+-Gerador de números aleatório
+-Mudança de imagem conforme o número aleatório
+-Mudança de texto conforme número aleatório
+-Evento de clique em imagens
