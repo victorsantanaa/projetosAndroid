@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "293130068741",
+    "firebase_url": "https://entregas-da-quebrada.firebaseio.com",
+    "project_id": "entregas-da-quebrada",
+    "storage_bucket": "entregas-da-quebrada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293130068741:android:35dd556bd1c4dd4bb28d6c",
+        "android_client_info": {
+          "package_name": "com.jamalicia.entregasquebrada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293130068741-l8coj9v2gc2ahc586krsthktqhkg8uig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jamalicia.entregasquebrada",
+            "certificate_hash": "9e05d5337004bd3bfcde0b65768ea3d87441165c"
+          }
+        },
+        {
+          "client_id": "293130068741-r6gfe4imf2rka3amb620q8gqlh8j66sg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-tmfkJsA7yNsmuvo0bv8x8x7xInQCTOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293130068741-r6gfe4imf2rka3amb620q8gqlh8j66sg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
