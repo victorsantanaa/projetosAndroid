@@ -15,9 +15,11 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextAlcool"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint='"R$ 1,90"' />
+            android:hint='"R$ 1,90"'
+            android:inputType="numberDecimal" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -60,10 +62,11 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText"
+        android:id="@+id/editTextGasolina"
         android:layout_width="337dp"
         android:layout_height="41dp"
         android:hint='"R$ 2,90"'
+        android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -81,14 +84,15 @@
         android:layout_width="144dp"
         android:layout_height="37dp"
         android:layout_marginTop="48dp"
+        android:onClick="calcularPreco"
         android:text="Calcular"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputEditText" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextGasolina" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textResultado"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
